@@ -1,0 +1,12 @@
+.education-images {
+    height: 80px;
+    width: relative;
+    transition: transform .2s;
+    transform-origin: 50% 50%;
+    margin: 0 auto;
+}
+
+.educationCardLinks {
+    font-size: 1.25rem;
+    color: var(--main-dark-color);
+}

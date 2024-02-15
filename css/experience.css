@@ -1,0 +1,215 @@
+.item-company {
+    display: inline-block;
+}
+
+.left-style .timeline-item {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.left-part {
+    width: 30%;
+    display: table-cell;
+    padding-right: 35px;
+    min-height: 100%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.right-part {
+    width: 70%;
+    display: table-cell;
+    padding-left: 25px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+.divider {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    bottom: 0;
+    width: 1px;
+    background-color: #eee;
+    transition: transform .2s;
+}
+
+.divider:after {
+    content: '';
+    display: block;
+    margin-top: 7px;
+    width: 11px;
+    height: 11px;
+    margin-left: -5px;
+    border-radius: 5px;
+    border: 2px solid;
+    color: var(--main-red-color);
+    background-color: white;
+    animation: pulseAnimation 1.6s infinite;
+
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.item-description-bigger {
+    font-size: large;
+}
+
+#github_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#youtube_embed {
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    border: 2px solid var(--main-red-color);
+    border-radius: 2%;
+    margin: 5px;
+}
+
+#github_text {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+#youtube_text {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+.youtube-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* VERY LARGE SCREENS: */
+@media only screen and (min-width: 1100px) {
+    #github_text {
+        font-size: 3.75rem;
+        text-align: left;
+    }
+
+    #youtube_text {
+        font-size: 2.5rem;
+        text-align: right;
+        margin-right: 6.25rem;
+    }
+
+    .item-company {
+        font-size: 2rem;
+    }
+
+    #github_logo {
+        max-width: 60%;
+    }
+
+    #youtube_embed {
+        width: 300px;
+    }
+}
+
+/* LARGE SCREENS: */
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+    #github_text {
+        text-align: left;
+    }
+
+    #youtube_text {
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    .item-company {
+        font-size: 1.5rem;
+    }
+
+    #github_logo {
+        max-width: 60%;
+    }
+
+    #youtube_embed {
+        width: 220px;
+    }
+}
+
+/*Embed bug*/
+@media only screen and (min-width: 766) and (max-width: 770px) {
+    #youtube_embed {
+        width: 200px;
+    }
+}
+
+/* SMALL SCREENS: */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    #github_text {
+        justify-content: center;
+    }
+
+    #youtube_text {
+        text-align: center;
+    }
+
+    #github_logo {
+        max-width: 30%;
+    }
+
+    .item-company {
+        font-size: 1.125rem;
+    }
+
+    #youtube_embed {
+        width: 300px;
+    }
+}
+
+/* VERY SMALL SCREENS: */
+@media only screen and (max-width: 576px) {
+    #github_text {
+        justify-content: center;
+        text-align: center;
+    }
+
+    #youtube_text {
+        text-align: center;
+    }
+
+    #github_logo {
+        max-width: 30%;
+    }
+
+    .item-company {
+        font-size: 0.875rem;
+    }
+
+    #youtube_embed {
+        width: 220px;
+    }
+}
+
+@keyframes pulseAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}

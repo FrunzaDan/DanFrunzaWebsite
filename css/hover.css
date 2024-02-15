@@ -1,0 +1,249 @@
+.hoverlinkUTCN>p>a {
+    display: inline-block;
+    transition: all .2s;
+    transform-origin: 50% 50%;
+    margin: 0 auto;
+}
+
+
+
+.hoverlinkULBS>p>a {
+    display: inline-block;
+    transition: all .2s;
+    transform-origin: 50% 50%;
+    margin: 0 auto;
+}
+
+.hoverlink {
+    transition: all .2s;
+    transform-origin: 50% 50%;
+}
+
+.skillhoverItem {
+    position: relative;
+    transition: all .2s;
+    transform-origin: 50% 50%;
+}
+
+@media (pointer: fine) {
+    .hoverlinkUTCN>p>a:hover {
+        transform: scale(1.1);
+        color: rgb(172, 44, 39);
+    }
+
+    .hoverlinkULBS>p>a:hover {
+        transform: scale(1.1);
+        color: rgb(22, 46, 96);
+    }
+
+    .hoverlink:hover {
+        transform: scale(1.1);
+        color: var(--main-red-color);
+    }
+
+
+    .education-images:hover {
+        transform: scale(1.1);
+    }
+
+
+    .card:hover {
+        transform: scale(1.02);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .skillhoverItem:hover {
+        transform: scale(1.1);
+    }
+
+    #navbarBrand:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(4px 4px var(--main-red-color));
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    #leftContactCard:hover {
+        background-color: white;
+        color: var(--main-dark-color);
+        border-radius: 5px;
+
+        .cardContactText {
+            color: var(--main-dark-color);
+        }
+
+        .contactIconsCard {
+            color: var(--main-dark-color);
+        }
+    }
+
+    #github_card:hover {
+        cursor: pointer;
+        background-color: var(--main-dark-color);
+        color: white;
+        border-radius: 5px;
+
+        #github_logo {
+            filter: invert(1);
+        }
+
+        #github_text {
+            color: white;
+        }
+    }
+
+    #youtube_card:hover {
+        cursor: pointer;
+        background-color: var(--main-red-color);
+        color: white;
+        border-radius: 5px;
+
+        #youtube_text {
+            color: white;
+        }
+    }
+
+    .skills-second-style:hover .skill-percentage:hover {
+        background-color: var(--main-red-color);
+        border: 2px solid var(--main-light-color);
+    }
+
+    .skills-second-style:hover .skill-container:hover {
+        background-color: transparent;
+        border: 1px solid var(--main-red-color);
+    }
+
+    .hoverNavItem:hover {
+        transform: scale(1.1);
+        color: var(--main-red-color);
+        text-shadow: 1px 1px var(--main-dark-color);
+    }
+
+    .hoverNavItem:active {
+        transform: scale(1.2);
+        color: var(--main-dark-color);
+        text-shadow: 1px 1px var(--main-red-color);
+    }
+
+    .item-company:hover {
+        transform: scale(1.1);
+        color: var(--main-red-color);
+    }
+
+    .buttonStyle:hover {
+        background-color: white;
+        color: var(--main-dark-color);
+        border-color: var(--main-dark-color);
+    }
+}
+
+@media (hover: none),
+(pointer: coarse) {
+    .hoverlinkUTCN>p>a:active {
+        transform: scale(1.1);
+        color: rgb(172, 44, 39);
+    }
+
+    .hoverlinkULBS>p>a:active {
+        transform: scale(1.1);
+        color: rgb(22, 46, 96);
+    }
+
+    .hoverlink:active {
+        transform: scale(1.1);
+        color: var(--main-red-color);
+    }
+
+
+    .education-images:active {
+        transform: scale(1.1);
+    }
+
+
+    .card:active {
+        transform: scale(1.02);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .skillhoverItem:active {
+        transform: scale(1.1);
+    }
+
+    #navbarBrand:active {
+        transform: scale(1.1);
+        filter: drop-shadow(4px 4px var(--main-red-color));
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+    #leftContactCard:active {
+        background-color: white;
+        color: var(--main-dark-color);
+        border-radius: 5px;
+
+        .cardContactText {
+            color: var(--main-dark-color);
+        }
+
+        .contactIconsCard {
+            color: var(--main-dark-color);
+        }
+    }
+
+    #github_card:active {
+        cursor: pointer;
+        background-color: var(--main-dark-color);
+        color: white;
+        border-radius: 5px;
+
+        #github_logo {
+            filter: invert(1);
+        }
+
+        #github_text {
+            color: white;
+        }
+    }
+
+    #youtube_card:active {
+        cursor: pointer;
+        background-color: var(--main-red-color);
+        color: white;
+        border-radius: 5px;
+
+        #youtube_text {
+            color: white;
+        }
+    }
+
+    .skills-second-style:active .skill-percentage:active {
+        background-color: var(--main-red-color);
+        border: 2px solid var(--main-light-color);
+    }
+
+    .skills-second-style:active .skill-container:active {
+        background-color: transparent;
+        border: 1px solid var(--main-red-color);
+    }
+
+    .hoverNavItem:active {
+        transform: scale(1.1);
+        color: var(--main-red-color);
+        text-shadow: 1px 1px var(--main-dark-color);
+    }
+
+    .item-company:active {
+        transform: scale(1.1);
+        color: var(--main-red-color);
+    }
+
+    .buttonStyle:active {
+        background-color: white;
+        color: var(--main-dark-color);
+        border-color: var(--main-dark-color);
+    }
+}

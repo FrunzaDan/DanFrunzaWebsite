@@ -1,0 +1,179 @@
+.typing-container {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+#input-cursor {
+  display: inline-block;
+  background-color: var(--main-dark-color);
+  animation: blinkCursor .4s linear infinite alternate;
+}
+
+@keyframes blinkCursor {
+  0% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+#parallaxWrapper {
+  margin: 0px;
+  padding: 0px;
+  height: 100dvh;
+  overflow-x: hidden;
+  perspective: 10px;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.backgroundDanFrunza {
+  background: url(../assets/images/Dan_Foreground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  object-fit: cover;
+  z-index: -2;
+  transform: translateZ(-20px) scale(3);
+}
+
+.backgroundWelcomeCSS {
+  background-image: linear-gradient(to bottom, white 16%, transparent 60%),
+    url(../assets/images/Welcome_CSS.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-top: 100vh;
+  object-fit: cover;
+  z-index: -3;
+  transform: translateZ(-50px) scale(6);
+}
+
+/* VERY LARGE SCREENS: */
+@media screen and (min-aspect-ratio: 2/1) {
+  .typing-container {
+    bottom: 150px;
+    font-size: 6rem;
+  }
+
+  #input-cursor {
+    width: 10px;
+    height: 75px;
+    margin-left: 8px;
+  }
+
+  .backgroundDanFrunza {
+    background-position: bottom;
+    height: 100%;
+    width: 30%;
+  }
+}
+
+/* VERY LARGE SCREENS: */
+@media only screen and (min-width: 1100px) and (max-aspect-ratio: 2/1) {
+  .typing-container {
+    bottom: 150px;
+    font-size: 6rem;
+  }
+
+  #input-cursor {
+    width: 10px;
+    height: 75px;
+    margin-left: 8px;
+  }
+
+  .backgroundDanFrunza {
+    background-position: bottom;
+    height: 100%;
+    width: 40%;
+  }
+}
+
+/* LARGE SCREENS: */
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+  .typing-container {
+    bottom: 200px;
+    font-size: 5rem;
+  }
+
+  #input-cursor {
+    width: 8px;
+    height: 65px;
+    margin-left: 6px;
+  }
+
+  .backgroundDanFrunza {
+    background-position: bottom;
+    height: 100%;
+    width: 60%;
+  }
+}
+
+/* SMALL SCREENS: */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .typing-container {
+    bottom: 180px;
+    font-size: 4rem;
+  }
+
+  #input-cursor {
+    width: 6px;
+    height: 55px;
+    margin-left: 4px;
+  }
+
+  .backgroundDanFrunza {
+    background-position: center;
+    height: 100%;
+    width: 65%;
+  }
+}
+
+/* VERY SMALL SCREENS: */
+@media only screen and (max-width: 576px) {
+  .typing-container {
+    bottom: 200px;
+    font-size: 3rem;
+  }
+
+  #input-cursor {
+    width: 4px;
+    height: 40px;
+    margin-left: 2px;
+  }
+
+  .backgroundDanFrunza {
+    background-position: center;
+    height: 100%;
+    width: 90%;
+  }
+}

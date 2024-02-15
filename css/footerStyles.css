@@ -1,0 +1,47 @@
+.footerIcon {
+  color: var(--main-dark-color);
+}
+
+#Logo_Frunza_Dan {
+  max-width: 40%;
+  height: auto;
+}
+
+/* SMALL SCREENS: */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  #Logo_Frunza_Dan {
+    width: 30%;
+    max-width: 160px;
+    height: auto;
+  }
+}
+
+/* VERY SMALL SCREENS: */
+@media only screen and (max-width: 576px) {
+  #Logo_Frunza_Dan {
+    max-width: 30%;
+    height: auto;
+  }
+}
+
+.footersubdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 2%;
+}
+
+#ulfooterid {
+  position: relative;
+  top: 25%;
+}
+
+#footerDiv {
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}

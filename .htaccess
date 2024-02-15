@@ -1,0 +1,2 @@
+## Creates Error Page
+ErrorDocument 404 /error404.html
