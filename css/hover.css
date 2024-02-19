@@ -61,6 +61,11 @@
         filter: drop-shadow(4px 4px var(--main-red-color));
     }
 
+    #Logo_Frunza_Dan:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(4px 4px var(--main-red-color));
+    }
+
     a:hover {
         text-decoration: none;
     }
@@ -172,6 +177,11 @@
     }
 
     #navbarBrand:active {
+        transform: scale(1.1);
+        filter: drop-shadow(4px 4px var(--main-red-color));
+    }
+
+    #Logo_Frunza_Dan:active {
         transform: scale(1.1);
         filter: drop-shadow(4px 4px var(--main-red-color));
     }

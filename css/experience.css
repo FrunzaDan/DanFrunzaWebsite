@@ -14,7 +14,7 @@
 .left-part {
     width: 30%;
     display: table-cell;
-    padding-right: 35px;
+    padding-right: 1.4rem;
     min-height: 100%;
     text-align: right;
     vertical-align: top;
@@ -59,6 +59,10 @@
 
 .item-description-bigger {
     font-size: large;
+}
+
+.text-inside-description {
+    font-size: 1rem;
 }
 
 #github_logo {
@@ -172,6 +176,10 @@
 
     #youtube_embed {
         width: 300px;
+    }
+
+    .text-inside-description {
+        font-size: 0.8rem;
     }
 }
 

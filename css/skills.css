@@ -55,11 +55,11 @@
 }
 
 .skill-percentage.skill-6 {
-  width: 80%;
+  width: 70%;
 }
 
 .skill-percentage.skill-7 {
-  width: 85%;
+  width: 80%;
 }
 
 .skill-percentage.skill-8 {
@@ -71,7 +71,7 @@
 }
 
 .skill-percentage.skill-10 {
-  width: 90%;
+  width: 85%;
 }
 
 .skill-percentage.skill-11 {
@@ -83,12 +83,12 @@
 }
 
 .skills-info.skills-second-style {
-  padding-left: 10px;
-  padding-right: 50px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  padding-left: 0.6rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
 }
 
 .skills-info.skills-second-style h4 {
@@ -97,4 +97,14 @@
   position: relative;
   float: left;
   margin: 0 0 4px;
+}
+
+/* SMALL SCREENS: */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .skills-info.skills-second-style {
+    padding-top: 0.6rem;
+    padding-bottom: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+  }
 }

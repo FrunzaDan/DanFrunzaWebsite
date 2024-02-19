@@ -125,6 +125,16 @@ a:active {
   padding: 5px 5px 5px 5px;
 }
 
+.logo-footer {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.caption-under-img {
+  display: block;
+}
+
 /* VERY LARGE SCREENS: */
 @media only screen and (min-width: 1100px) {
   .sectionDiv {
