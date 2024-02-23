@@ -1,4 +1,4 @@
-.footerIcon {
+.footer-icon {
   color: var(--main-dark-color);
 }
 
@@ -10,7 +10,7 @@
   transform-origin: 50% 50%;
 }
 
-.footersubdiv {
+.footer-sub-div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +19,7 @@
   padding: 2%;
 }
 
-#ulfooterid {
+#ul-footer-id {
   position: relative;
   display: flex;
   justify-content: center;

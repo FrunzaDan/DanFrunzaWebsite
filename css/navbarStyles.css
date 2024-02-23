@@ -83,7 +83,7 @@
     }
 }
 
-.hoverNavItem {
+.hover-nav-item {
     display: inline-block;
     transition: all .2s;
     transform-origin: 50% 50%;

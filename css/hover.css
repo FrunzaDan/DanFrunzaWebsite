@@ -1,42 +1,17 @@
-.hoverlinkUTCN>p>a {
+.hover-link {
     display: inline-block;
     transition: all .2s;
     transform-origin: 50% 50%;
-    margin: 0 auto;
 }
 
-
-
-.hoverlinkULBS>p>a {
-    display: inline-block;
-    transition: all .2s;
-    transform-origin: 50% 50%;
-    margin: 0 auto;
-}
-
-.hoverlink {
-    transition: all .2s;
-    transform-origin: 50% 50%;
-}
-
-.skillhoverItem {
+.skill-hover-item {
     position: relative;
     transition: all .2s;
     transform-origin: 50% 50%;
 }
 
 @media (pointer: fine) {
-    .hoverlinkUTCN>p>a:hover {
-        transform: scale(1.1);
-        color: rgb(172, 44, 39);
-    }
-
-    .hoverlinkULBS>p>a:hover {
-        transform: scale(1.1);
-        color: rgb(22, 46, 96);
-    }
-
-    .hoverlink:hover {
+    .hover-link:hover {
         transform: scale(1.1);
         color: var(--main-red-color);
     }
@@ -52,7 +27,7 @@
         filter: drop-shadow(8px 8px var(--main-red-color));
     }
 
-    .skillhoverItem:hover {
+    .skill-hover-item:hover {
         transform: scale(1.1);
     }
 
@@ -70,16 +45,16 @@
         text-decoration: none;
     }
 
-    #leftContactCard:hover {
+    #left-contact-card:hover {
         background-color: var(--main-light-color);
         color: var(--main-dark-color);
         border-radius: 5px;
 
-        .cardContactText {
+        .card-contact-text {
             color: var(--main-dark-color);
         }
 
-        .contactIconsCard {
+        .contact-icons-card {
             color: var(--main-dark-color);
         }
     }
@@ -122,13 +97,13 @@
         border: 1px solid var(--main-red-color);
     }
 
-    .hoverNavItem:hover {
+    .hover-nav-item:hover {
         transform: scale(1.1);
         color: var(--main-red-color);
         text-shadow: 1px 1px var(--main-dark-color);
     }
 
-    .hoverNavItem:active {
+    .hover-nav-item:active {
         transform: scale(1.2);
         color: var(--main-dark-color);
         text-shadow: 1px 1px var(--main-red-color);
@@ -139,7 +114,7 @@
         color: var(--main-red-color);
     }
 
-    .buttonStyle:hover {
+    .button-custom-style:hover {
         background-color: var(--main-light-color);
         color: var(--main-dark-color);
         border-color: var(--main-dark-color);
@@ -148,33 +123,21 @@
 
 @media (hover: none),
 (pointer: coarse) {
-    .hoverlinkUTCN>p>a:active {
-        transform: scale(1.1);
-        color: rgb(172, 44, 39);
-    }
-
-    .hoverlinkULBS>p>a:active {
-        transform: scale(1.1);
-        color: rgb(22, 46, 96);
-    }
-
-    .hoverlink:active {
+    .hover-link:active {
         transform: scale(1.1);
         color: var(--main-red-color);
     }
 
-
     .education-images:active {
         transform: scale(1.1);
     }
-
 
     .card:active {
         transform: scale(1.02);
         filter: drop-shadow(8px 8px var(--main-red-color));
     }
 
-    .skillhoverItem:active {
+    .skill-hover-item:active {
         transform: scale(1.1);
     }
 
@@ -192,16 +155,16 @@
         text-decoration: none;
     }
 
-    #leftContactCard:active {
+    #left-contact-card:active {
         background-color: var(--main-light-color);
         color: var(--main-dark-color);
         border-radius: 5px;
 
-        .cardContactText {
+        .card-contact-text {
             color: var(--main-dark-color);
         }
 
-        .contactIconsCard {
+        .contact-icons-card {
             color: var(--main-dark-color);
         }
     }
@@ -244,7 +207,7 @@
         border: 1px solid var(--main-red-color);
     }
 
-    .hoverNavItem:active {
+    .hover-nav-item:active {
         transform: scale(1.1);
         color: var(--main-red-color);
         text-shadow: 1px 1px var(--main-dark-color);
@@ -255,7 +218,7 @@
         color: var(--main-red-color);
     }
 
-    .buttonStyle:active {
+    .button-custom-style:active {
         background-color: var(--main-light-color);
         color: var(--main-dark-color);
         border-color: var(--main-dark-color);

@@ -1,4 +1,4 @@
-const scroller = document.querySelector("#parallaxWrapper");
+const scroller = document.querySelector("#parallax-Wrapper");
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
 scroller.addEventListener("scroll", (event) => {
@@ -10,7 +10,7 @@ scroller.addEventListener("scroll", (event) => {
 });
 
 function topFunction() {
-    var myDiv = document.getElementById("parallaxWrapper");
+    var myDiv = document.getElementById("parallax-Wrapper");
     myDiv.scrollTop = 0;
 }
 

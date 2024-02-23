@@ -39,12 +39,12 @@
 <body ontouchstart="">
     <button onclick="topFunction()" id="scrollToTopBtn" title="Go to top">&#8593;</button>
 
-    <div class="container-fluid" id="parallaxWrapper">
-        <nav class="navbar navbar-expand-sm navbarStyle" id="navbarId">
+    <div class="container-fluid" id="parallax-Wrapper">
+        <nav class="navbar navbar-expand-sm navbarStyle" id="navbar-id">
             <div class="container-sm">
                 <a href="#intro" class="navbar-brand">
                     <div class="nav-link">
-                        <img id="navbarBrand" src="../assets/images/DanFrunzaLogo_Mini.png" alt="Logo">
+                        <img id="navbarBrand" src="../assets/images/DanFrunzaLogo_Mini.png" alt="Dan Frunza Logo">
                     </div>
                 </a>
                 <a class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse"
@@ -58,17 +58,17 @@
                     <ul class="navbar-nav">
                         <div class="nav-item">
                             <a href="#experience" class="nav-link">
-                                <span class="hoverNavItem">Experience</span>
+                                <span class="hover-nav-item">Experience</span>
                             </a>
                         </div>
                         <div class="nav-item">
                             <a href="#education" class="nav-link">
-                                <span class="hoverNavItem">Education</span>
+                                <span class="hover-nav-item">Education</span>
                             </a>
                         </div>
                         <div class="nav-item">
                             <a href="#contact" class="nav-link">
-                                <span class="hoverNavItem">Contact</span>
+                                <span class="hover-nav-item">Contact</span>
                             </a>
                         </div>
                     </ul>
@@ -76,7 +76,7 @@
             </div>
         </nav>
         <header>
-            <div class="backgroundWelcomeCSS">
+            <div class="background-welcome-css">
                 <p id="background-welcome-text">
                     <br>
                     <br>
@@ -85,18 +85,18 @@
                     margin-right: 10px; text-align: center; } #input-cursor { display: inline-block; background-color:
                     var(--main-dark-color); animation: blinkCursor .4s linear infinite alternate; } @keyframes
                     blinkCursor { 0% { opacity:
-                    1; } 40% { opacity: 1; } 60% { opacity: 0; } 100% { opacity: 0; } } #parallaxWrapper { margin: 0px;
+                    1; } 40% { opacity: 1; } 60% { opacity: 0; } 100% { opacity: 0; } } #parallax-Wrapper { margin: 0px;
                     padding: 0px;
                     height: 100dvh; overflow-x: hidden; perspective: 10px; scroll-behavior: smooth; scrollbar-width:
                     none; } header {
                     position: relative; display: flex; justify-content: center; align-items: center; height: 100%;
                     transform-style:
-                    preserve-3d; z-index: -1; background-color: rgba(255, 255, 255, 0.5); } .backgroundDanFrunza {
+                    preserve-3d; z-index: -1; background-color: rgba(255, 255, 255, 0.5); } .background-Dan-Frunza {
                     background:
                     url(../assets/images/Dan_Foreground.png); background-position: center; background-repeat: no-repeat;
                     background-size:
                     cover; position: absolute; object-fit: cover; z-index: -2; transform: translateZ(-20px) scale(3); }
-                    .backgroundWelcomeCSS { background-image: linear-gradient(to bottom, var(--main-light-color) 16%,
+                    .background-welcome-css { background-image: linear-gradient(to bottom, var(--main-light-color) 16%,
                     transparent 60%),
                     url(../assets/images/Welcome_CSS.png); background-position: center; background-repeat: no-repeat;
                     background-size:
@@ -105,26 +105,28 @@
                     translateZ(-50px) scale(6); } /* VERY LARGE SCREENS: */ @media screen and (min-aspect-ratio: 2/1) {
                     .typing-container {
                     bottom: 150px; font-size: 6rem; } #input-cursor { width: 10px; height: 75px; margin-left: 8px; }
-                    .backgroundDanFrunza {
+                    .background-Dan-Frunza {
                     background-position: bottom; height: 100%; width: 30%; } } /* VERY LARGE SCREENS: */ @media only
                     screen and (min-width:
                     1100px) and (max-aspect-ratio: 2/1) { .typing-container { bottom: 150px; font-size: 6rem; }
                     #input-cursor { width: 10px;
-                    height: 75px; margin-left: 8px; } .backgroundDanFrunza { background-position: bottom; height: 100%;
+                    height: 75px; margin-left: 8px; } .background-Dan-Frunza { background-position: bottom; height:
+                    100%;
                     width: 40%; } } /*
                     LARGE SCREENS: */ @media only screen and (min-width: 768px) and (max-width: 1100px) {
                     .typing-container { bottom: 200px;
                     font-size: 5rem; } #input-cursor { width: 8px; height: 65px; margin-left: 6px; }
-                    .backgroundDanFrunza {
+                    .background-Dan-Frunza {
                     background-position: bottom; height: 100%; width: 60%; } } /* SMALL SCREENS: */ @media only screen
                     and (min-width:
                     576px) and (max-width: 768px) { .typing-container { bottom: 180px; font-size: 4rem; } #input-cursor
                     { width: 6px;
-                    height: 55px; margin-left: 4px; } .backgroundDanFrunza { background-position: center; height: 100%;
+                    height: 55px; margin-left: 4px; } .background-Dan-Frunza { background-position: center; height:
+                    100%;
                     width: 65%; } } /*
                     VERY SMALL SCREENS: */ @media only screen and (max-width: 576px) { .typing-container { bottom:
                     200px; font-size: 3rem; }
-                    #input-cursor { width: 4px; height: 40px; margin-left: 2px; } .backgroundDanFrunza {
+                    #input-cursor { width: 4px; height: 40px; margin-left: 2px; } .background-Dan-Frunza {
                     background-position: center;
                     height: 100%; width: 90%; } }
                     .typing-container { position: absolute; z-index: 2; left: 50%; transform: translateX(-50%);
@@ -132,18 +134,18 @@
                     margin-right: 10px; text-align: center; } #input-cursor { display: inline-block; background-color:
                     var(--main-dark-color); animation: blinkCursor .4s linear infinite alternate; } @keyframes
                     blinkCursor { 0% { opacity:
-                    1; } 40% { opacity: 1; } 60% { opacity: 0; } 100% { opacity: 0; } } #parallaxWrapper { margin: 0px;
+                    1; } 40% { opacity: 1; } 60% { opacity: 0; } 100% { opacity: 0; } } #parallax-Wrapper { margin: 0px;
                     padding: 0px;
                     height: 100dvh; overflow-x: hidden; perspective: 10px; scroll-behavior: smooth; scrollbar-width:
                     none; } header {
                     position: relative; display: flex; justify-content: center; align-items: center; height: 100%;
                     transform-style:
-                    preserve-3d; z-index: -1; background-color: rgba(255, 255, 255, 0.5); } .backgroundDanFrunza {
+                    preserve-3d; z-index: -1; background-color: rgba(255, 255, 255, 0.5); } .background-Dan-Frunza {
                     background:
                     url(../assets/images/Dan_Foreground.png); background-position: center; background-repeat: no-repeat;
                     background-size:
                     cover; position: absolute; object-fit: cover; z-index: -2; transform: translateZ(-20px) scale(3); }
-                    .backgroundWelcomeCSS { background-image: linear-gradient(to bottom, var(--main-light-color) 16%,
+                    .background-welcome-css { background-image: linear-gradient(to bottom, var(--main-light-color) 16%,
                     transparent 60%),
                     url(../assets/images/Welcome_CSS.png); background-position: center; background-repeat: no-repeat;
                     background-size:
@@ -152,39 +154,41 @@
                     translateZ(-50px) scale(6); } /* VERY LARGE SCREENS: */ @media screen and (min-aspect-ratio: 2/1) {
                     .typing-container {
                     bottom: 150px; font-size: 6rem; } #input-cursor { width: 10px; height: 75px; margin-left: 8px; }
-                    .backgroundDanFrunza {
+                    .background-Dan-Frunza {
                     background-position: bottom; height: 100%; width: 30%; } } /* VERY LARGE SCREENS: */ @media only
                     screen and (min-width:
                     1100px) and (max-aspect-ratio: 2/1) { .typing-container { bottom: 150px; font-size: 6rem; }
                     #input-cursor { width: 10px;
-                    height: 75px; margin-left: 8px; } .backgroundDanFrunza { background-position: bottom; height: 100%;
+                    height: 75px; margin-left: 8px; } .background-Dan-Frunza { background-position: bottom; height:
+                    100%;
                     width: 40%; } } /*
                     LARGE SCREENS: */ @media only screen and (min-width: 768px) and (max-width: 1100px) {
                     .typing-container { bottom: 200px;
                     font-size: 5rem; } #input-cursor { width: 8px; height: 65px; margin-left: 6px; }
-                    .backgroundDanFrunza {
+                    .background-Dan-Frunza {
                     background-position: bottom; height: 100%; width: 60%; } } /* SMALL SCREENS: */ @media only screen
                     and (min-width:
                     576px) and (max-width: 768px) { .typing-container { bottom: 180px; font-size: 4rem; } #input-cursor
                     { width: 6px;
-                    height: 55px; margin-left: 4px; } .backgroundDanFrunza { background-position: center; height: 100%;
+                    height: 55px; margin-left: 4px; } .background-Dan-Frunza { background-position: center; height:
+                    100%;
                     width: 65%; } } /*
                     VERY SMALL SCREENS: */ @media only screen and (max-width: 576px) { .typing-container { bottom:
                     200px; font-size: 3rem; }
-                    #input-cursor { width: 4px; height: 40px; margin-left: 2px; } .backgroundDanFrunza {
+                    #input-cursor { width: 4px; height: 40px; margin-left: 2px; } .background-Dan-Frunza {
                     background-position: center;
                     height: 100%; width: 90%; } }
                 </p>
             </div>
-            <div class="backgroundDanFrunza"></div>
+            <div class="background-Dan-Frunza"></div>
             <div class="container-fluid typing-container">
-                <span id="WelcomeTitle"></span>
+                <span id="welcome-title"></span>
                 <span id="input-cursor"></span>
             </div>
         </header>
 
-        <div data-bs-spy="scroll" data-bs-target="#navbarId" data-bs-smooth-scroll="true" tabindex="0">
-            <section class="sectionDiv" id="experience">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-id" data-bs-smooth-scroll="true" tabindex="0">
+            <section class="section-div" id="experience">
                 <div class="row text-center">
                     <div class="container">
                         <p class="section-name">
@@ -195,7 +199,7 @@
 
                 <div class="row mx-2">
                     <div class="col-inner">
-                        <div class="container customSubtitle">
+                        <div class="container custom-subtitle">
                             <h2>A few words about me:</h2>
                         </div>
                         <div class="container">
@@ -214,14 +218,14 @@
                 <div class="row mx-2">
                     <div class="col-xs-12 col-sm-8 col-md-9">
                         <div class="col-inner">
-                            <div class="container customSubtitle">
+                            <div class="container custom-subtitle">
                                 <h2>Develoment Career:</h2>
                             </div>
                             <div class="timeline left-style">
                                 <div class="timeline-item">
                                     <div class="left-part">
                                         <h5 class="item-period">2023</h5>
-                                        <a href="https://www.baramundi.com/" class="item-company hoverlink">baramundi
+                                        <a href="https://www.baramundi.com/" class="item-company hover-link">baramundi
                                             software GmbH</a>
                                     </div>
                                     <div class="divider"></div>
@@ -237,7 +241,7 @@
                                 <div class="timeline-item">
                                     <div class="left-part">
                                         <h5 class="item-period">2022</h5>
-                                        <a href="https://alphacomm.io/" class="item-company hoverlink">Alphacomm
+                                        <a href="https://alphacomm.io/" class="item-company hover-link">Alphacomm
                                             B.V.</a>
                                     </div>
                                     <div class="divider"></div>
@@ -253,7 +257,7 @@
                                 <div class="timeline-item">
                                     <div class="left-part">
                                         <h5 class="item-period">2020</h5>
-                                        <a href="https://www.bertrandt.com/" class="item-company hoverlink">Bertrandt
+                                        <a href="https://www.bertrandt.com/" class="item-company hover-link">Bertrandt
                                             A.G.</a>
                                     </div>
                                     <div class="divider"></div>
@@ -270,7 +274,7 @@
                                 <div class="timeline-item">
                                     <div class="left-part">
                                         <h5 class="item-period">2019</h5>
-                                        <a href="https://www.guhring.com/" class="item-company hoverlink">Guehring
+                                        <a href="https://www.guhring.com/" class="item-company hover-link">Guehring
                                             K.G.</a>
                                     </div>
                                     <div class="divider"></div>
@@ -283,7 +287,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="container customSubtitle">
+                            <div class="container custom-subtitle">
                                 <h2>Internships:</h2>
                             </div>
                             <div class="timeline left-style">
@@ -291,7 +295,7 @@
                                     <div class="left-part">
                                         <h5 class="item-period">2019</h5>
                                         <a href="https://www.ipa.fraunhofer.de/"
-                                            class="item-company hoverlink">Fraunhofer
+                                            class="item-company hover-link">Fraunhofer
                                             IPA</a>
                                     </div>
                                     <div class="divider"></div>
@@ -306,7 +310,7 @@
                                 <div class="timeline-item">
                                     <div class="left-part">
                                         <h5 class="item-period">2018</h5>
-                                        <a href="https://www.bielomatik.com/" class="item-company hoverlink">Bielomatik
+                                        <a href="https://www.bielomatik.com/" class="item-company hover-link">Bielomatik
                                             GmbH</a>
                                     </div>
                                     <div class="divider"></div>
@@ -323,7 +327,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="col-inner">
-                            <div class="container customSubtitle">
+                            <div class="container custom-subtitle">
                                 <h4>Technical Skills:</h4>
                             </div>
                             <div class="skills-info skills-second-style">
@@ -331,46 +335,46 @@
                                     <h4>Dot Net, C#</h4>
                                     <div class="skill-value">85%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-1"></div>
                                 </div>
                                 <div class="clearfix">
                                     <h4>Blazor, Razor</h4>
                                     <div class="skill-value">75%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-2"></div>
                                 </div>
                                 <div class="clearfix">
                                     <h4>Databases</h4>
                                     <div class="skill-value">80%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-3"></div>
                                 </div>
                                 <div class="clearfix">
                                     <h4>Microservices & Web APIs</h4>
                                     <div class="skill-value">90%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-4"></div>
                                 </div>
                                 <div class="clearfix">
                                     <h4>Html, CSS, Javascript</h4>
                                     <div class="skill-value">80%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-5"></div>
                                 </div>
                                 <div class="clearfix">
                                     <h4>Angular</h4>
                                     <div class="skill-value">70%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-6"></div>
                                 </div>
                             </div>
-                            <div class="container customSubtitle">
+                            <div class="container custom-subtitle">
                                 <h4>Soft Skills:</h4>
                             </div>
                             <div class="skills-info skills-second-style">
@@ -378,42 +382,42 @@
                                     <h4>Time management</h4>
                                     <div class="skill-value">80%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-7"></div>
                                 </div>
                                 <div class="clearfix">
                                     <h4>Communication</h4>
                                     <div class="skill-value">95%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-8"></div>
                                 </div>
                                 <div class="clearfix">
                                     <h4>Adaptability</h4>
                                     <div class="skill-value">80%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-9"></div>
                                 </div>
                                 <div class="clearfix">
                                     <h4>Problem-solving</h4>
                                     <div class="skill-value">85%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-10"></div>
                                 </div>
                                 <div class="clearfix">
                                     <h4>Team work</h4>
                                     <div class="skill-value">90%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-11"></div>
                                 </div>
                                 <div class="clearfix">
                                     <h4>Creativity</h4>
                                     <div class="skill-value">85%</div>
                                 </div>
-                                <div class="skill-container skillhoverItem">
+                                <div class="skill-container skill-hover-item">
                                     <div class="skill-percentage skill-12"></div>
                                 </div>
                             </div>
@@ -422,7 +426,7 @@
                 </div>
                 <div class="row mx-2">
                     <div class="col-inner">
-                        <div class="container customSubtitle">
+                        <div class="container custom-subtitle">
                             <h2>Projects?</h2>
                         </div>
                         <div class="card container-fluid d-flex align-items-center justify-content-around my-3"
@@ -467,7 +471,7 @@
                 <hr class="solid_Fade">
             </section>
 
-            <section class="sectionDiv" id="education">
+            <section class="section-div" id="education">
                 <div class="row text-center">
                     <div class="container">
                         <p class="section-name">
@@ -477,36 +481,28 @@
                 </div>
 
                 <div class="container-fluid-sm py-4 px-0">
-                    <div class="row gy-2 justify-content-center mx-2">
-
+                    <div class="row justify-content-center mx-2">
                         <div class="col-sm my-2">
                             <div class="card education-card">
                                 <div class="card-body">
-                                    <h1 class="text-center customSubtitle">Master's Degree</h1>
+                                    <h1 class="text-center custom-subtitle mb-4">Master's Degree</h1>
                                     <div class="d-flex justify-content-center">
                                         <a href="https://www.ulbsibiu.ro/"><img src="./assets/images/ULBS_Logo.png"
                                                 alt="ULBS" class="education-images"></a>
                                     </div>
 
-                                    <div class="hoverlinkULBS">
-                                        <p class="container text-center">
-                                            <a href="https://www.ulbsibiu.ro/"
-                                                class="container educationCardLinks">Lucian Blaga University of
-                                                Sibiu</a>
-                                        </p>
+                                    <div class="container text-center">
+                                        <a href="https://www.ulbsibiu.ro/" class="education-card-links hover-link">
+                                            Lucian Blaga University of Sibiu
+                                        </a>
+                                    </div>
+                                    <div class="container text-center mb-4">
+                                        <a href="http://csac.ulbsibiu.ro/" class="education-card-links hover-link">
+                                            Advanced Computing Systems (2022)
+                                        </a>
                                     </div>
 
-                                    <div class="hoverlinkULBS">
-                                        <p class="container text-center">
-                                            <a href="http://csac.ulbsibiu.ro/"
-                                                class="container educationCardLinks">Advanced
-                                                Computing
-                                                Systems
-                                                (2022)</a>
-                                        </p>
-                                    </div>
-
-                                    <div class="container">
+                                    <div class="container px-2">
                                         <ul class="item-description">
                                             <li>Digital image processing</li>
                                             <li>Data Mining</li>
@@ -521,28 +517,23 @@
                         <div class="col-sm my-2">
                             <div class="card education-card">
                                 <div class="card-body">
-                                    <h1 class="text-center customSubtitle">Bachelor's Degree</h1>
+                                    <h1 class="text-center custom-subtitle mb-4">Bachelor's Degree</h1>
                                     <div class="d-flex justify-content-center">
                                         <a href="https://www.utcluj.ro/"><img src="./assets/images/UTCN_Logo.png"
                                                 alt="UTCN" class="education-images"></a>
                                     </div>
-
-                                    <div class="hoverlinkUTCN">
-                                        <p class="container text-center">
-                                            <a href="https://www.utcluj.ro/"
-                                                class="container educationCardLinks">Technical
-                                                University of Cluj-Napoca</a>
-                                        </p>
+                                    <div class="container text-center">
+                                        <a href="https://www.utcluj.ro/" class="education-card-links hover-link">
+                                            Technical University of Cluj-Napoca
+                                        </a>
                                     </div>
-
-                                    <div class="hoverlinkUTCN">
-                                        <p class="container text-center">
-                                            <a href="https://iirmp.utcluj.ro/acasa.html"
-                                                class="container educationCardLinks">Industrial
-                                                Engineering & Robotics (2020)</a>
-                                        </p>
+                                    <div class="container text-center mb-4">
+                                        <a href="https://iirmp.utcluj.ro/acasa.html"
+                                            class="education-card-links hover-link">
+                                            Industrial Engineering & Robotics (2020)
+                                        </a>
                                     </div>
-                                    <div class="container">
+                                    <div class="container px-2">
                                         <ul class="item-description">
                                             <li>Industry focused databases</li>
                                             <li>Industrial programming</li>
@@ -559,7 +550,7 @@
                 <hr class="solid_Fade">
             </section>
 
-            <section class="sectionDiv" id="contact">
+            <section class="section-div" id="contact">
                 <div class="row text-center">
                     <div class="container">
                         <p class="section-name">
@@ -572,43 +563,43 @@
                     <div class="row gy-2 justify-content-center mx-2">
                         <div class="col-sm-5 col-md-4 fillCol">
                             <div class="card contact-section-card">
-                                <div class="card-body" id="leftContactCard">
-                                    <h5 class="card-title cardContactText mb-4 px-3">Get in touch:
+                                <div class="card-body" id="left-contact-card">
+                                    <h5 class="card-title card-contact-text mb-4 px-3">Get in touch:
                                     </h5>
                                     <div class="container-fluid">
                                         <div class="mx-2 my-2">
-                                            <i class="bi bi-envelope contactIconsCard me-2"></i><span
-                                                class="card-subtitle mb-2 cardContactText">E-mail:</span>
+                                            <i class="bi bi-envelope contact-icons-card me-2"></i><span
+                                                class="card-subtitle mb-2 card-contact-text">E-mail:</span>
                                             <a href="mailto:frunzadan96@gmail.com">
-                                                <p class="card-text cardContactText">frunzadan96@gmail.com</p>
+                                                <p class="card-text card-contact-text">frunzadan96@gmail.com</p>
                                             </a>
                                         </div>
                                         <div class="mx-2 my-2">
-                                            <i class="bi bi-telephone contactIconsCard me-2"></i><span
-                                                class="card-subtitle mb-2 cardContactText">Phone:</span>
+                                            <i class="bi bi-telephone contact-icons-card me-2"></i><span
+                                                class="card-subtitle mb-2 card-contact-text">Phone:</span>
                                             <a href="tel:+40773851161">
-                                                <p class="card-text cardContactText">+40773851161</p>
+                                                <p class="card-text card-contact-text">+40773851161</p>
                                             </a>
                                         </div>
                                         <div class="mx-2 my-2">
-                                            <i class="bi bi-facebook contactIconsCard me-2"></i><span
-                                                class="card-subtitle mb-2 cardContactText">Facebook:</span>
+                                            <i class="bi bi-facebook contact-icons-card me-2"></i><span
+                                                class="card-subtitle mb-2 card-contact-text">Facebook:</span>
                                             <a href="https://www.facebook.com/frunza.dan.9">
-                                                <p class="card-text cardContactText">facebook.com/frunza.dan.9</p>
+                                                <p class="card-text card-contact-text">facebook.com/frunza.dan.9</p>
                                             </a>
                                         </div>
                                         <div class="mx-2 my-2">
-                                            <i class="bi bi-instagram contactIconsCard me-2"></i><span
-                                                class="card-subtitle mb-2 cardContactText">Instagram:</span>
+                                            <i class="bi bi-instagram contact-icons-card me-2"></i><span
+                                                class="card-subtitle mb-2 card-contact-text">Instagram:</span>
                                             <a href="https://www.instagram.com/danfrunza">
-                                                <p class="card-text cardContactText">instagram.com/danfrunza</p>
+                                                <p class="card-text card-contact-text">instagram.com/danfrunza</p>
                                             </a>
                                         </div>
                                         <div class="mx-2 my-2">
-                                            <i class="bi bi-linkedin contactIconsCard me-2"></i><span
-                                                class="card-subtitle mb-2 cardContactText">LinkedIn:</span>
+                                            <i class="bi bi-linkedin contact-icons-card me-2"></i><span
+                                                class="card-subtitle mb-2 card-contact-text">LinkedIn:</span>
                                             <a href="https://www.linkedin.com/in/dan-frunza-745094116">
-                                                <p class="card-text cardContactText">
+                                                <p class="card-text card-contact-text">
                                                     linkedin.com/in/dan-frunza-745094116
                                                 </p>
                                             </a>
@@ -618,37 +609,37 @@
                             </div>
                         </div>
                         <div class="col-sm-7 col-md-8 fillCol">
-                            <div class="card contact-section-card transparentItem">
+                            <div class="card contact-section-card">
                                 <div class="card-body">
-                                    <form id="contactForm" onsubmit="sendEmail(); reset(); return false">
+                                    <form id="contact-form" onsubmit="sendEmail(); reset(); return false">
                                         <div class="container-fluid">
                                             <div class="mb-3">
                                                 <label for="from_name" class="form-label">Name:</label>
-                                                <input class="form-control transparentItem" id="from_name" type="text"
+                                                <input class="form-control" id="from_name" type="text"
                                                     placeholder="Your name" required />
                                             </div>
                                             <div class="mb-3">
                                                 <label for="from_email" class="form-label">E-mail:</label>
-                                                <input class="form-control transparentItem" id="from_email" type="email"
+                                                <input class="form-control" id="from_email" type="email"
                                                     placeholder="Your E-mail address" required />
                                             </div>
                                             <div class="mb-3">
                                                 <label for="from_message" class="form-label">Message:</label>
-                                                <textarea class="form-control transparentItem" id="from_message"
-                                                    type="text" placeholder="Your message for me" required
+                                                <textarea class="form-control" id="from_message" type="text"
+                                                    placeholder="Your message for me" required
                                                     style="height: 10rem"></textarea>
                                             </div>
                                             <div class="d-grid">
-                                                <button class="btn btn-lg btn-secondary buttonStyle"
+                                                <button class="btn btn-lg btn-secondary button-custom-style"
                                                     type="submit">Send!</button>
                                             </div>
                                         </div>
                                     </form>
                                 </div>
-                                <div class="popupBox" id="popupEmail">
-                                    <h2 id="emailPopupTextHeader"></h2>
-                                    <p id="emailPopupTextParagraph"></p>
-                                    <button type="submit" class="btn btn-lg btn-secondary buttonStyle"
+                                <div class="contact-popup-box" id="popup-email">
+                                    <h2 id="email-popup-text-header"></h2>
+                                    <p id="email-popup-text-paragraph"></p>
+                                    <button type="submit" class="btn btn-lg btn-secondary button-custom-style"
                                         onclick="closePopup()">OK</button>
                                 </div>
                             </div>
@@ -659,33 +650,33 @@
             </section>
             <footer id="footerDiv" class="justify-content-around">
                 <div class="row justify-content-around">
-                    <div class="col-sm-4 footersubdiv">
-                        <span class="hoverlink">
+                    <div class="col-sm-4 footer-sub-div">
+                        <span class="hover-link">
                             ©2023
                         </span>
                     </div>
-                    <div class="col-sm-4 footersubdiv">
+                    <div class="col-sm-4 footer-sub-div">
                         <div class="logo-footer">
                             <img id="Logo_Frunza_Dan" src="../assets/images/DanFrunzaLogo_Mini.png" alt="Logo">
                             <span class="caption-under-img">Dan Frunza</span>
                         </div>
                     </div>
-                    <div class="col-sm-4 footersubdiv">
-                        <ul id="ulfooterid" class="footersubdiv d-sm-flex gap-3 list-unstyled">
+                    <div class="col-sm-4 footer-sub-div">
+                        <ul id="ul-footer-id" class="footer-sub-div d-sm-flex gap-3 list-unstyled">
                             <div><a href="https://www.facebook.com/frunza.dan.9/"><i
-                                        class="bi bi-facebook d-flex hoverlink footerIcon"></i></a>
+                                        class="bi bi-facebook d-flex hover-link footer-icon"></i></a>
                             </div>
                             <div><a href="https://www.instagram.com/danfrunza/"><i
-                                        class="bi bi-instagram d-flex hoverlink footerIcon"></i></a>
+                                        class="bi bi-instagram d-flex hover-link footer-icon"></i></a>
                             </div>
                             <div><a href="https://twitter.com/FrunzaDan"><i
-                                        class="bi bi-twitter-x d-flex hoverlink footerIcon"></i></a>
+                                        class="bi bi-twitter-x d-flex hover-link footer-icon"></i></a>
                             </div>
                             <div><a href="https://www.linkedin.com/in/dan-frunza-745094116/"><i
-                                        class="bi bi-linkedin d-flex hoverlink footerIcon"></i></a>
+                                        class="bi bi-linkedin d-flex hover-link footer-icon"></i></a>
                             </div>
                             <div><a href="https://www.youtube.com/@DanFrunza9"><i
-                                        class="bi bi-youtube d-flex hoverlink footerIcon"></i></a>
+                                        class="bi bi-youtube d-flex hover-link footer-icon"></i></a>
                             </div>
                         </ul>
                     </div>

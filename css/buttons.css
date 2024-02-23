@@ -1,4 +1,4 @@
-.buttonStyle {
+.button-custom-style {
     background-color: var(--main-dark-color);
     border-color: var(--main-dark-color);
     color: var(--main-light-color);
