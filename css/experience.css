@@ -48,7 +48,7 @@
     border-radius: 5px;
     border: 2px solid;
     color: var(--main-red-color);
-    background-color: white;
+    background-color: var(--main-light-color);
     animation: pulseAnimation 1.6s infinite;
 
 }

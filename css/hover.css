@@ -49,7 +49,7 @@
 
     .card:hover {
         transform: scale(1.02);
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        filter: drop-shadow(8px 8px var(--main-red-color));
     }
 
     .skillhoverItem:hover {
@@ -71,7 +71,7 @@
     }
 
     #leftContactCard:hover {
-        background-color: white;
+        background-color: var(--main-light-color);
         color: var(--main-dark-color);
         border-radius: 5px;
 
@@ -87,7 +87,7 @@
     #github_card:hover {
         cursor: pointer;
         background-color: var(--main-dark-color);
-        color: white;
+        color: var(--main-light-color);
         border-radius: 5px;
 
         #github_logo {
@@ -95,19 +95,21 @@
         }
 
         #github_text {
-            color: white;
+            color: var(--main-light-color);
         }
     }
 
     #youtube_card:hover {
         cursor: pointer;
         background-color: var(--main-red-color);
-        color: white;
+        color: var(--main-light-color);
         border-radius: 5px;
 
         #youtube_text {
-            color: white;
+            color: var(--main-light-color);
         }
+
+        filter: drop-shadow(8px 8px var(--main-dark-color)) !important;
     }
 
     .skills-second-style:hover .skill-percentage:hover {
@@ -138,7 +140,7 @@
     }
 
     .buttonStyle:hover {
-        background-color: white;
+        background-color: var(--main-light-color);
         color: var(--main-dark-color);
         border-color: var(--main-dark-color);
     }
@@ -169,7 +171,7 @@
 
     .card:active {
         transform: scale(1.02);
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        filter: drop-shadow(8px 8px var(--main-red-color));
     }
 
     .skillhoverItem:active {
@@ -191,7 +193,7 @@
     }
 
     #leftContactCard:active {
-        background-color: white;
+        background-color: var(--main-light-color);
         color: var(--main-dark-color);
         border-radius: 5px;
 
@@ -207,7 +209,7 @@
     #github_card:active {
         cursor: pointer;
         background-color: var(--main-dark-color);
-        color: white;
+        color: var(--main-light-color);
         border-radius: 5px;
 
         #github_logo {
@@ -215,19 +217,21 @@
         }
 
         #github_text {
-            color: white;
+            color: var(--main-light-color);
         }
     }
 
     #youtube_card:active {
         cursor: pointer;
         background-color: var(--main-red-color);
-        color: white;
+        color: var(--main-light-color);
         border-radius: 5px;
 
         #youtube_text {
-            color: white;
+            color: var(--main-light-color);
         }
+
+        filter: drop-shadow(8px 8px var(--main-dark-color)) !important;
     }
 
     .skills-second-style:active .skill-percentage:active {
@@ -252,7 +256,7 @@
     }
 
     .buttonStyle:active {
-        background-color: white;
+        background-color: var(--main-light-color);
         color: var(--main-dark-color);
         border-color: var(--main-dark-color);
     }

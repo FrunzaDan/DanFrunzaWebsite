@@ -1,12 +1,12 @@
 .buttonStyle {
     background-color: var(--main-dark-color);
     border-color: var(--main-dark-color);
-    color: white;
+    color: var(--main-light-color);
     transition: all .2s;
     width: 100%;
 }
 
 .btn-secondary {
-    --bs-btn-active-color: white;
+    --bs-btn-active-color: var(--main-light-color);
     --bs-btn-active-bg: var(--main-dark-color);
 }
