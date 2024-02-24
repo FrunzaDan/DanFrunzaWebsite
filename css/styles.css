@@ -115,8 +115,8 @@ a:active {
 }
 
 .card {
-  transition: all .2s;
-  filter: drop-shadow(4px 4px var(--main-red-color));
+  transition: all .2s !important;
+  filter: drop-shadow(6px 6px var(--main-red-color));
 }
 
 .section-div {
@@ -195,10 +195,6 @@ textarea {
   align-items: left;
   height: 100%;
   width: 100%;
-}
-
-.card {
-  transition: all .2s !important;
 }
 
 .education-card {

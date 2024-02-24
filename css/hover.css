@@ -24,7 +24,7 @@
 
     .card:hover {
         transform: scale(1.02);
-        filter: drop-shadow(8px 8px var(--main-red-color));
+        filter: drop-shadow(10px 10px var(--main-red-color));
     }
 
     .skill-hover-item:hover {
@@ -36,7 +36,7 @@
         filter: drop-shadow(4px 4px var(--main-red-color));
     }
 
-    #Logo_Frunza_Dan:hover {
+    #logo-Frunza-Dan:hover {
         transform: scale(1.1);
         filter: drop-shadow(4px 4px var(--main-red-color));
     }
@@ -59,32 +59,32 @@
         }
     }
 
-    #github_card:hover {
+    #github-card:hover {
         cursor: pointer;
         background-color: var(--main-dark-color);
         color: var(--main-light-color);
         border-radius: 5px;
 
-        #github_logo {
+        #github-logo {
             filter: invert(1);
         }
 
-        #github_text {
+        #github-text {
             color: var(--main-light-color);
         }
     }
 
-    #youtube_card:hover {
+    #youtube-card:hover {
         cursor: pointer;
         background-color: var(--main-red-color);
         color: var(--main-light-color);
         border-radius: 5px;
 
-        #youtube_text {
+        #youtube-text {
             color: var(--main-light-color);
         }
 
-        filter: drop-shadow(8px 8px var(--main-dark-color)) !important;
+        filter: drop-shadow(10px 10px var(--main-dark-color)) !important;
     }
 
     .skills-second-style:hover .skill-percentage:hover {
@@ -134,7 +134,7 @@
 
     .card:active {
         transform: scale(1.02);
-        filter: drop-shadow(8px 8px var(--main-red-color));
+        filter: drop-shadow(10px 10px var(--main-red-color));
     }
 
     .skill-hover-item:active {
@@ -146,7 +146,7 @@
         filter: drop-shadow(4px 4px var(--main-red-color));
     }
 
-    #Logo_Frunza_Dan:active {
+    #logo-Frunza-Dan:active {
         transform: scale(1.1);
         filter: drop-shadow(4px 4px var(--main-red-color));
     }
@@ -169,32 +169,32 @@
         }
     }
 
-    #github_card:active {
+    #github-card:active {
         cursor: pointer;
         background-color: var(--main-dark-color);
         color: var(--main-light-color);
         border-radius: 5px;
 
-        #github_logo {
+        #github-logo {
             filter: invert(1);
         }
 
-        #github_text {
+        #github-text {
             color: var(--main-light-color);
         }
     }
 
-    #youtube_card:active {
+    #youtube-card:active {
         cursor: pointer;
         background-color: var(--main-red-color);
         color: var(--main-light-color);
         border-radius: 5px;
 
-        #youtube_text {
+        #youtube-text {
             color: var(--main-light-color);
         }
 
-        filter: drop-shadow(8px 8px var(--main-dark-color)) !important;
+        filter: drop-shadow(10px 10px var(--main-dark-color)) !important;
     }
 
     .skills-second-style:active .skill-percentage:active {

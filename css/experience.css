@@ -65,13 +65,13 @@
     font-size: 1rem;
 }
 
-#github_logo {
+#github-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#youtube_embed {
+#youtube-embed {
     height: 100%;
     position: relative;
     display: inline-block;
@@ -80,13 +80,13 @@
     margin: 5px;
 }
 
-#github_text {
+#github-text {
     margin: 5px;
     padding: 5px;
     display: flex;
 }
 
-#youtube_text {
+#youtube-text {
     margin: 5px;
     padding: 5px;
     display: flex;
@@ -101,12 +101,12 @@
 
 /* VERY LARGE SCREENS: */
 @media only screen and (min-width: 1100px) {
-    #github_text {
+    #github-text {
         font-size: 3.75rem;
         text-align: left;
     }
 
-    #youtube_text {
+    #youtube-text {
         font-size: 2.5rem;
         text-align: right;
         margin-right: 6.25rem;
@@ -116,22 +116,22 @@
         font-size: 2rem;
     }
 
-    #github_logo {
+    #github-logo {
         max-width: 60%;
     }
 
-    #youtube_embed {
+    #youtube-embed {
         width: 300px;
     }
 }
 
 /* LARGE SCREENS: */
 @media only screen and (min-width: 768px) and (max-width: 1100px) {
-    #github_text {
+    #github-text {
         text-align: left;
     }
 
-    #youtube_text {
+    #youtube-text {
         text-align: right;
         margin-right: 20px;
     }
@@ -140,33 +140,33 @@
         font-size: 1.5rem;
     }
 
-    #github_logo {
+    #github-logo {
         max-width: 60%;
     }
 
-    #youtube_embed {
+    #youtube-embed {
         width: 220px;
     }
 }
 
 /*Embed bug*/
 @media only screen and (min-width: 766) and (max-width: 770px) {
-    #youtube_embed {
+    #youtube-embed {
         width: 200px;
     }
 }
 
 /* SMALL SCREENS: */
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-    #github_text {
+    #github-text {
         justify-content: center;
     }
 
-    #youtube_text {
+    #youtube-text {
         text-align: center;
     }
 
-    #github_logo {
+    #github-logo {
         max-width: 30%;
     }
 
@@ -174,7 +174,7 @@
         font-size: 1.125rem;
     }
 
-    #youtube_embed {
+    #youtube-embed {
         width: 300px;
     }
 
@@ -185,16 +185,16 @@
 
 /* VERY SMALL SCREENS: */
 @media only screen and (max-width: 576px) {
-    #github_text {
+    #github-text {
         justify-content: center;
         text-align: center;
     }
 
-    #youtube_text {
+    #youtube-text {
         text-align: center;
     }
 
-    #github_logo {
+    #github-logo {
         max-width: 30%;
     }
 
@@ -202,7 +202,7 @@
         font-size: 0.875rem;
     }
 
-    #youtube_embed {
+    #youtube-embed {
         width: 220px;
     }
 }
