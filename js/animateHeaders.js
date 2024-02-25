@@ -21,7 +21,7 @@ function animateHeaders(headerIndex) {
 function reverseAnimation(headerIndex) {
   var i = headersToAnimate[headerIndex].length - 1, delay = 0;
   for (; i >= 0; i--, delay++) {
-    var string = headersToAnimate[headerIndex].substr(0, i);
+    var string = headersToAnimate[headerIndex].substring(0, i);
     setTimeout('document.getElementById("welcome-title").innerHTML = \'' + string + '\';', 100 * delay);
   }
 

@@ -195,6 +195,7 @@ textarea {
   align-items: left;
   height: 100%;
   width: 100%;
+  transition: all .2s;
 }
 
 .education-card {
