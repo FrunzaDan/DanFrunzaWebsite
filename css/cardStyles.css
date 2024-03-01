@@ -10,6 +10,7 @@
 
 .contact-icons-card {
     color: var(--main-light-color);
+    vertical-align: middle;
 }
 
 #github-card {
