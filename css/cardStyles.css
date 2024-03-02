@@ -11,6 +11,7 @@
 .contact-icons-card {
     color: var(--main-light-color);
     vertical-align: middle;
+    padding-right: 0px !important;
 }
 
 #github-card {

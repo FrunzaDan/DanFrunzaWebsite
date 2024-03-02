@@ -100,7 +100,7 @@ ul {
   list-style: none;
 }
 
-li::before {
+.item-description li::before {
   content: "\2022";
   color: var(--main-red-color);
   font-family: sans-serif;
@@ -109,6 +109,16 @@ li::before {
   width: 2em;
   margin-left: -1em;
 }
+
+/* li::before {
+  content: "\2022";
+  color: var(--main-red-color);
+  font-family: sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  width: 2em;
+  margin-left: -1em;
+} */
 
 a:active {
   text-decoration: none;
