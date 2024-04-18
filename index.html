@@ -40,39 +40,43 @@
     <button onclick="topFunction()" id="scrollToTopBtn" title="Go to top">&#8593;</button>
 
     <div class="container-fluid" id="parallax-Wrapper">
-        <nav class="navbar navbar-expand-sm navbarStyle" id="navbar-id">
-            <div class="container-fluid">
-                <a href="#intro" class="navbar-brand">
-                    <div class="nav-link">
-                        <img id="navbarBrand" src="../assets/images/DanFrunzaLogo_Mini.svg" alt="Dan Frunza Logo">
-                    </div>
-                </a>
-                <a class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#main-nav">
-                    <span> </span>
-                    <span> </span>
-                    <span> </span>
-                </a>
+        <nav class="navbar navbar-expand-sm navbar-custom-style" id="navbar-id">
 
-                <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="#experience" class="nav-link">
-                                <span class="hover-nav-item">Experience</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#education" class="nav-link">
-                                <span class="hover-nav-item">Education</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">
-                                <span class="hover-nav-item">Contact</span>
-                            </a>
-                        </li>
-                    </ul>
+            <a href="#intro" class="navbar-brand">
+                <div class="nav-link">
+                    <img id="navbarBrand" src="../assets/images/DanFrunzaLogo_Mini.svg" alt="Dan Frunza Logo">
                 </div>
+            </a>
+            <a class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span> </span>
+                <span> </span>
+                <span> </span>
+            </a>
+
+            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
+                <ul class="navbar-nav custom custom-nav-list">
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">
+                            <span class="hover-nav-item" data-bs-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show">Experience</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">
+                            <span class="hover-nav-item" data-bs-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show">Education</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <span class="hover-nav-item" data-bs-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show">Contact</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
         <header>
@@ -93,7 +97,8 @@
                     transform-style:
                     preserve-3d; z-index: -1; background-color: rgba(255, 255, 255, 0.5); } .background-Dan-Frunza {
                     background:
-                    url(../assets/images/Dan_Foreground.png); background-position: center; background-repeat: no-repeat;
+                    url(../assets/images/Dan_Foreground.webp); background-position: center; background-repeat:
+                    no-repeat;
                     background-size:
                     cover; position: absolute; object-fit: cover; z-index: -2; transform: translateZ(-20px) scale(3); }
                     .background-welcome-css { background-image: linear-gradient(to bottom, var(--main-light-color) 16%,
@@ -142,7 +147,8 @@
                     transform-style:
                     preserve-3d; z-index: -1; background-color: rgba(255, 255, 255, 0.5); } .background-Dan-Frunza {
                     background:
-                    url(../assets/images/Dan_Foreground.png); background-position: center; background-repeat: no-repeat;
+                    url(../assets/images/Dan_Foreground.webp); background-position: center; background-repeat:
+                    no-repeat;
                     background-size:
                     cover; position: absolute; object-fit: cover; z-index: -2; transform: translateZ(-20px) scale(3); }
                     .background-welcome-css { background-image: linear-gradient(to bottom, var(--main-light-color) 16%,
@@ -187,7 +193,7 @@
             </div>
         </header>
 
-        <div data-bs-spy="scroll" data-bs-target="#navbar-id" data-bs-smooth-scroll="true" tabindex="0">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-id" data-bs-smooth-scroll="true" tabindex="-1">
             <section class="section-div" id="experience">
                 <div class="row text-center">
                     <div class="container">
@@ -764,8 +770,8 @@
         };
 
         // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
+        const app = initializeApp( firebaseConfig );
+        const analytics = getAnalytics( app );
     </script>
 
 </body>
