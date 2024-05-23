@@ -7,8 +7,7 @@
     display: table;
     table-layout: fixed;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 2rem;
 }
 
 .left-part {
@@ -34,7 +33,7 @@
     left: 30%;
     bottom: 0;
     width: 1px;
-    background-color: #eee;
+    background-color: var(--main-dark-color);
     transition: transform .2s;
 }
 
@@ -53,10 +52,6 @@
 
 }
 
-.text-justify {
-    text-align: justify;
-}
-
 .item-description-bigger {
     font-size: large;
 }
@@ -69,6 +64,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #youtube-embed {
@@ -76,8 +73,9 @@
     position: relative;
     display: inline-block;
     border: 2px solid var(--main-red-color);
-    border-radius: 2%;
-    margin: 5px;
+    border-radius: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #github-text {
